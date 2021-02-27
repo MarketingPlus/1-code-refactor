@@ -98,20 +98,13 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+
+/* /* REMOVED UNNESSARY aside CODE AND MADE IT INTO ONE STYLE */
+section aside {
+        margin-bottom: 32px;
+        color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 /* REMOVED UNNESSARY h3 CODE AND MADE IT INTO ONE STYLE */
 
