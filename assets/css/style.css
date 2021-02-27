@@ -87,6 +87,13 @@ p {
 
 /* SIDEBAR WITH BENEFITS */
 
+/* making sure all aside elements follow the same style */
+section aside {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* created one style so that there is only one class for all the aside elements */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -99,22 +106,13 @@ p {
 }
 
 
-/* REMOVED UNNESSARY aside CODE AND MADE IT INTO ONE STYLE */
-section aside {
-        margin-bottom: 32px;
-        color: #ffffff;
-}
-
-
-/* REMOVED UNNESSARY h3 CODE AND MADE IT INTO ONE STYLE */
-
+/* removed redundant code for the h3s in benefits and created one style for all images under that class */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* REMOVED UNNESSARY img CODE AND MADE IT INTO ONE STYLE */
-
+/* removed redundant code for the images in benefits and created one style for all images under that class */
 .benefits img {
     display: block;
     margin: 10px auto;
@@ -123,6 +121,7 @@ section aside {
 
 /* MAIN CONTENT */
 
+/* removed reduntant code for the article element so all 3 of the articles follow the same styling*/
 main article {
     margin-bottom: 20px;
     padding: 50px;
@@ -132,10 +131,12 @@ main article {
     color: #ffffff;
 }
 
+/* removed redundant code for the images in articles and created one style for all images under that element */
 main article img {
     max-height: 200px;
 }
 
+/* removed redundant code for the h2s in articles and created one style for all images under that element */
 main article h2 {
     margin-bottom: 20px;
     font-size: 36px;
