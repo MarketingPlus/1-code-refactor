@@ -17,11 +17,60 @@ I have updated the HTML to ensure that the website is functioning as needed this
 - Created a title which helps describe the use of the page and what its for
 - Ensured all elements follow a logical structure with good indentation
 
+> EXAMPLE: this code shows the previous code and what updates have been made
+```HTML
+FROM - 
+<div class="footer">
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </div>
+
+TO - 
+   <!-- FOOTER -->
+    <footer class="footer">
+        <h4>Made with ❤️️ by Horiseon</h2>
+            <p>
+                &copy; 2019 Horiseon Social Solution Services, Inc.
+            </p>
+    </footer>
+```
+
+
 ### CSS 💻
 
 I have updated the CSS file to improve functionallity while keeping the websites style the same this includes:
 - Creating or editing existing elements that follow the same style to have the same editor in CSS which helps improve proficiency in coding
 - No style values or attributes have been changes but selectors have been updated acorrdingly
+
+> EXAMPLE: this code shows the previous code and what updates have been made
+
+```CSS
+FROM -
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+TO - 
+
+/* making sure all aside elements follow the same style */
+section aside {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+```
 
 ## Repository 📁
 
